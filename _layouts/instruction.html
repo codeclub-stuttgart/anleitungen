@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+  {% include head.html %}
+  <body class="instruction">
+
+    <h1 class="instruction-title">{{ page.title }}</h1>
+
+    <div class="instruction-info-box">
+
+      <p>Diese Symbole zeigen dir, was du machen musst </p>
+
+      <ul>
+        <li><b class="checklist-symbol">Checkliste</b>: Folge Schritt für Schritt der Anleitung</li>
+        <li><b class="test-symbol">Teste dein Projekt</b>: Klicke auf die Flage um dein Programm zu testen</li>
+      </ul>
+
+    </div>
+
+    <div class="instruction-content">
+
+      {{ content }}
+
+    </div>
+  </body>
+</html>
