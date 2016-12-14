@@ -1,6 +1,6 @@
 # Anleitungen für Programmiertreff Stuttgart
 
-## Projekt Installieren
+## Setup
 
 Dieses Projekt verwendet [jekyll](https://jekyllrb.com/)
 
