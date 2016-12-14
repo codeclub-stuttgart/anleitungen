@@ -2,10 +2,14 @@ $primary-1: #2196F3;
 $primary-2: #4CAF50;
 $primary-3: #FF9800;
 
+$scratch-visual-color: #8A55D7;
+$scratch-control-color: #E2AA00;
+$scratch-sensor-color: #2CA5E2;
+
 $light-1: #BBDEFB;
 
 .instruction {
-  font-size: 20px;
+  font-size: 18px;
   max-width: 800px;
   margin: auto;
 }
@@ -58,6 +62,7 @@ $light-1: #BBDEFB;
   align-items: center;
   font-weight: bold;
 
+
   &:before {
     content: '';
     display: inline-block;
@@ -70,7 +75,8 @@ $light-1: #BBDEFB;
 }
 
 .instruction-content {
-  line-height: 1.4em;
+  line-height: 1.5em;
+  vertical-align: center;
   counter-reset: h2;
 
   h2 {
@@ -87,7 +93,7 @@ $light-1: #BBDEFB;
   }
 
   p {
-    padding: 10px;
+    padding: 0 10px;
   }
 
   ul {
@@ -95,10 +101,10 @@ $light-1: #BBDEFB;
   }
 
   ul > li {
+    position: relative;
     list-style: none;
-    display: flex;
-    align-items: flex-start;
     margin: 20px 0;
+    padding-left: 40px;
   }
 
   li > p {
@@ -107,20 +113,52 @@ $light-1: #BBDEFB;
   }
 
   ul > li:before {
+    position: absolute;
+    left: 0;
     display: inline-block;
     content: '';
     width: 25px;
     height: 25px;
     border-radius: 5px;
     border: 2px solid $primary-1;
-    flex-shrink: 0;
     margin-right: 15px;
   }
 
   img {
     display: block;
-    max-height:400px;
     margin: auto;
   }
 }
 
+.visual-block,
+.control-block,
+.sensor-block,
+.sensor-value {
+  color: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 2px 10px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.control-block {
+  background: $scratch-control-color;
+}
+
+.visual-block {
+  background: $scratch-visual-color
+}
+
+.sensor-block {
+  background: $scratch-sensor-color;
+}
+
+.sensor-value {
+  border-radius: 20px;
+  background: $scratch-sensor-color;
+}
+
+pre {
+  margin-left: 50px;
+}
