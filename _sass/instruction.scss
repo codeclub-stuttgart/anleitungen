@@ -5,6 +5,7 @@ $primary-3: #FF9800;
 $scratch-visual-color: #8A55D7;
 $scratch-control-color: #E2AA00;
 $scratch-sensor-color: #2CA5E2;
+$scratch-data-color: #EE7D16;
 
 $light-1: #BBDEFB;
 
@@ -133,7 +134,8 @@ $light-1: #BBDEFB;
 .visual-block,
 .control-block,
 .sensor-block,
-.sensor-value {
+.sensor-value,
+.data-value {
   color: #fff;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -157,6 +159,11 @@ $light-1: #BBDEFB;
 .sensor-value {
   border-radius: 20px;
   background: $scratch-sensor-color;
+}
+
+.data-value {
+  border-radius: 20px;
+  background: $scratch-data-color;
 }
 
 pre {

@@ -50,11 +50,11 @@ Eine Figur kann auch Fragen stellen
 
 <div class="test-symbol">Teste dein Projekt</div>
 
-Es wird jetzt ein Eingabefeld angezeigt. Der Computer merkt sich dann was du eingibst. 
+Es wird jetzt ein Textfeld angezeigt. Der Computer merkt sich dann was du hineinschreibst. 
 
 ![](dialog/answer-input.png)
 
-Um auf die Antwort zu reagieren verwende wir im nächsten Schritt den <span class="sensor-value">Antwort</span>-Block 
+Um mit der Antwort etwas zu machen brauchen wir im nächsten Schritt den <span class="sensor-value">Antwort</span>-Block 
 
 - Füge unter dem <span class="sensor-block">frage</span>-Block diese Blöcke ein 
 

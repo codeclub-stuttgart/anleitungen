@@ -4,8 +4,8 @@ layout: default
 
 <h1>{{site.title}}</h1>
 
+<ul>
 {% for instruction in site.instructions %}
-
-<a href="{{instruction.url}}">{{instruction.title}}</a>
-
+  <li><a href="{{instruction.url}}">{{instruction.title}}</a></li>
 {% endfor %}
+</ul>
