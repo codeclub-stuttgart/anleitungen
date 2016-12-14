@@ -2,14 +2,16 @@
 
 ## Rezepte
 
-- Basics
+- [ ] Basics
   - Wenn dann
   - Wiederholung
 
-- Dinge die sich Bewegen
+- [ ] Figuren die sich Bewegen
   - mit der Maus
   - mit der Tastatur
   - von alleine
   
-- Dinge die zusammenstoßen
-- Dinge die miteinander Reden
+- [ ] Figuren die zusammenstoßen
+- [ ] Nachrichten
+- [X] Dinge merken
+- [X] Mit Figuren reden
