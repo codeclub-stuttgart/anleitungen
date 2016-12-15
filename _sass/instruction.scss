@@ -2,8 +2,14 @@ $primary-1: #2196F3;
 $primary-2: #4CAF50;
 $primary-3: #FF9800;
 
+$scratch-movement-color: #4A6CD4;
 $scratch-visual-color: #8A55D7;
 $scratch-control-color: #E2AA00;
+$scratch-sound-color: #BB42C3;
+$scratch-painting-color: #0E9A6C;
+$scratch-operator-color: #5CB712;
+$scratch-advanced-color: #632D99;
+$scratch-event-color: #C88330;
 $scratch-sensor-color: #2CA5E2;
 $scratch-data-color: #EE7D16;
 
@@ -131,9 +137,24 @@ $light-1: #BBDEFB;
   }
 }
 
+.movement-block,
 .visual-block,
 .control-block,
+.sound-block,
+.painting-block,
+.operator-block,
+.advanced-block,
+.event-block,
 .sensor-block,
+.data-block,
+.movement-value,
+.visual-value,
+.control-value,
+.sound-value,
+.painting-value,
+.operator-value,
+.advanced-value,
+.event-value,
 .sensor-value,
 .data-value {
   color: #fff;
@@ -144,16 +165,84 @@ $light-1: #BBDEFB;
   margin: 0 5px;
 }
 
+.movement-block {
+  background: $scratch-movement-color;
+}
+
+.visual-block {
+  background: $scratch-visual-color;
+}
+
 .control-block {
   background: $scratch-control-color;
 }
 
-.visual-block {
-  background: $scratch-visual-color
+.sound-block {
+  background: $scratch-sound-color;
+}
+
+.painting-block {
+  background: $scratch-painting-color;
+}
+
+.operator-block {
+  background: $scratch-operator-color;
+}
+
+.advanced-block {
+  background: $scratch-advanced-color;
+}
+
+.event-block {
+  background: $scratch-event-color;
 }
 
 .sensor-block {
   background: $scratch-sensor-color;
+}
+
+.data-block {
+  background: $scratch-data-color;
+}
+
+.movement-value {
+  border-radius: 20px;
+  background: $scratch-movement-color;
+}
+
+.visual-value {
+  border-radius: 20px;
+  background: $scratch-visual-color;
+}
+
+.control-value {
+  border-radius: 20px;
+  background: $scratch-control-color;
+}
+
+.sound-value {
+  border-radius: 20px;
+  background: $scratch-sound-color;
+}
+
+.painting-value {
+  border-radius: 20px;
+  background: $scratch-painting-color;
+}
+
+.operator-value {
+  border-radius: 20px;
+  background: $scratch-operator-color;
+}
+
+.advanced-value {
+  border-radius: 20px;
+  background: $scratch-advanced-color;
+}
+
+.event-value {
+  border-radius: 20px;
+  background: $scratch-event-color;
 }
 
 .sensor-value {
