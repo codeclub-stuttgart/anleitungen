@@ -7,7 +7,7 @@ Dieses Projekt verwendet [jekyll](https://jekyllrb.com/)
 Jekyll installieren:
 
 ```
-gem install jekyll bundler
+sudo gem install jekyll bundler
 ```
 
 Preview generieren:
