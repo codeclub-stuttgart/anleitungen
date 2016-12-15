@@ -30,6 +30,6 @@ jekyll serve
   - mit der Tastatur
   - von alleine
 - [ ] Figuren die zusammenstoßen
-- [ ] Nachrichten
+- [X] Nachrichten
 - [X] Dinge merken
 - [X] Mit Figuren reden
