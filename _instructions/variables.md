@@ -3,6 +3,8 @@ layout: instruction
 title: "Dinge Merken"
 ---
 
+<div class="page-break"></div>
+
 ## Variable erstellen
 
 <div class="checklist-symbol">Checkliste</div>
@@ -23,6 +25,7 @@ Auf der Bühne wird die Variable auch angezeigt
 
 ![](variables/variable-display.png)
 
+<div class="page-break"></div>
 
 ## Punkte sammeln
 
@@ -50,6 +53,8 @@ Du kannst das jetzt mit einem kleinen Spiel ausprobieren. Der Spieler bekommt Pu
 
 
 ![](variables/crab.png)
+
+<div class="page-break"></div>
 
 <div class="checklist-symbol">Checkliste</div>
 

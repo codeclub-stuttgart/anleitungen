@@ -3,6 +3,8 @@ layout: instruction
 title: "Nachrichten senden"
 ---
 
+<div class="page-break"></div>
+
 ## Nachrichten senden
 
 Um eine Nachricht von einer Figur zu einer oder mehreren anderen zu senden, brauchen wir den Block
@@ -22,6 +24,8 @@ Diese finden wir in der braunen Kategorie Ereignisse
 
 ![neue_Nachricht](variables/neue_nachricht.png)
 
+<div class="page-break"></div>
+
 ## Auf Nachrichten reagieren
 
 Eine Nachricht zu senden reicht alleine nicht, eine andere Figur muss auch auf die Nachricht reagieren.
@@ -39,6 +43,8 @@ können wir unserer Figur jetzt sagen was sie machen soll.
 - Lass deine Figur etwas sagen wenn die Nachricht ankommt
 
 <div class="test-symbol">Teste dein Projekt</div>
+
+<div class="page-break"></div>
 
 ## Tipps
 

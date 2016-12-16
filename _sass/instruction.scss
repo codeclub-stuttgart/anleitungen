@@ -27,6 +27,9 @@ $light-1: #BBDEFB;
   height: 125px;
   line-height: 125px;
   padding-left: 50px;
+  margin: 0;
+  margin-bottom: 30px;
+  border-radius: 5px;
 }
 
 .instruction-info-box {
@@ -69,7 +72,6 @@ $light-1: #BBDEFB;
   align-items: center;
   font-weight: bold;
 
-
   &:before {
     content: '';
     display: inline-block;
@@ -84,19 +86,14 @@ $light-1: #BBDEFB;
 .instruction-content {
   line-height: 1.5em;
   vertical-align: center;
-  counter-reset: h2;
 
   h2 {
     padding: 10px 20px;
     color: #fff;
     background: $primary-2;
     border-radius: 5px;
-  }
-
-  h2:before {
-    color: $light-1;
-    content: "Schritt " counter(h2) ": ";
-    counter-increment: h2;
+    margin: 0;
+    margin-bottom: 30px;
   }
 
   p {
@@ -136,6 +133,7 @@ $light-1: #BBDEFB;
     margin: auto;
   }
 }
+
 
 .movement-block,
 .visual-block,
@@ -257,4 +255,8 @@ $light-1: #BBDEFB;
 
 pre {
   margin-left: 50px;
+}
+
+.page-break {
+  page-break-after: always;
 }

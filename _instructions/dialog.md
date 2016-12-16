@@ -3,11 +3,17 @@ layout: instruction
 title: "Mit Figuren reden"
 ---
 
-## Figur sprechen lassen
+<br>
+<br>
+<br>
 
 ![](dialog/hello-cat.png)
 
-Dieser Block zeigt eine Sprechblase für 2 Sekunden lang an erst danach wird der Block darunter gestartet
+<div class="page-break"></div>
+
+## Figur sprechen lassen
+
+Dieser Block zeigt eine Sprechblase 2 Sekunden lang an, erst danach wird der Block darunter gestartet
 
 ```blocks
     sage [Hallo!] für (2) Sek.
@@ -19,7 +25,7 @@ Dieser Block zeigt eine Sprechblase und macht keine Pause
     sage [Hallo!]
 ```
 
-Du musst die Sprechblase mit einem zweiten leeren Block wieder ausblenden
+Du musst die Sprechblase mit einem zweiten leeren Block wieder verstecken
 
 ```blocks
     sage []
@@ -28,20 +34,21 @@ Du musst die Sprechblase mit einem zweiten leeren Block wieder ausblenden
 <div class="checklist-symbol">Checkliste</div>
 
 - Probiere einmal beide Blöcke aus
-- Schau einmal was der Unterschied zu den <span class="visual-block">denke</span>-Blöcken ist     
-
+- Schau einmal was die <span class="visual-block">denke</span>-Blöcke machen     
 
 <div class="test-symbol">Teste dein Projekt</div>
 
+<div class="page-break"></div>
+
 ## Mit Figur reden
 
-Eine Figur kann auch Fragen stellen
+Deine Figuren können auch Fragen stellen
 
 <div class="checklist-symbol">Checklist</div>
 
 - Wähle eine Figur aus
 
-- Füge folgenden Block hinzu
+- Füge folgende Blöcke hinzu
 
 ```blocks
     Wenn die grüne Flagge angeklickt
@@ -68,7 +75,11 @@ Um mit der Antwort etwas zu machen brauchen wir im nächsten Schritt den <span c
 
 <div class="test-symbol">Teste dein Projekt</div>
 
--  Du kannst auch zwischen mehreren Antworten unterscheiden. Füge dazu unter sonst noch einen <span class="control-block">falls</span>-Block ein  
+<div class="page-break"></div>
+
+-  Du kannst auch zwischen mehreren Antworten unterscheiden. 
+   
+   Füge noch einen weiteren <span class="control-block">falls</span>-Block ein  
 
 
 ```blocks

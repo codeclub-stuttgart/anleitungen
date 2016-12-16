@@ -3,8 +3,8 @@ layout: instruction
 title: "Szenen wechseln"
 ---
 
-Um zwischen Szenen wechseln zu können, müssen wir einzelne Aufgaben kombinieren.
-Alle nötigen Blöcke findest du in der lilanen Kategorie <span class="visual-block">Aussehen</span>
+<br>
+
 ## Verstecken und zeigen
 
 In vielen Szene wollen wir unterschiedliche Figuren haben. Wir dürfen die Figuren aber nicht löschen, da sie sonst ganz weg sind.
@@ -27,6 +27,9 @@ Wenn du sie wieder sehen willst, brauchst du den Block
 - Verstecke deine Figur
 - Zeige deine Figur wieder
 
+<div class="test-symbol">Teste dein Projekt</div>
+
+<div class="page-break"></div>
 
 ## Kostüm wechseln
 
@@ -34,7 +37,7 @@ Wenn du sie wieder sehen willst, brauchst du den Block
 
 - Schaue ob deine Figur mehr als 1 Kostüm hat indem du auf *Kostüme* klickst.
 
-![reiter_kostüme](variables/reiter_kostüme.png)
+![reiter_kostüme](variables/reiter_kostueme.png)
 
 Wenn deine Figur mehr als 1 Kostüm hat, kannst du so zu Kostüm2 wechseln. 
 
@@ -54,8 +57,12 @@ Außerdem kannst du mehrere Kostüme nacheinander anzeigen indem du diesen Block
 - Ändere die Farbe deines Kostüms mithilfe des Blocks
 
 ```blocks
-    ändere [Farbe v]-Effekt um (25) 
+    ändere [Farbe v]-Effekt um (25)     
 ```
+
+<div class="test-symbol">Teste dein Projekt</div>
+
+<div class="page-break"></div>
 
 ## Hintergrund ändern
 
@@ -77,6 +84,10 @@ Auch bei der Bühne gibt es wieder 2 Blöcke
 - Lege ein neues Bühnenbild an
 - Wechsle zum neu angelegten Bühnenbild
 
+<div class="test-symbol">Teste dein Projekt</div>
+
+<div class="page-break"></div>
+
 ## Szenenwechsel
 
 Jetzt fügen wir alle Teile zusammen und bauen einen Szenenwechsel
@@ -90,12 +101,12 @@ In unserer ersten Figur brauchen wir folgende Blöcke
 
 ```blocks
     wenn die grüne Flagge angeklickt
-    gehe (10)er-Schritt
+    gleite in (2) Sek. zu x: (255) y: (0)
     verstecke dich
     sende [Szenenwechsel v] an alle
 ```
 
-Beim klicken auf die grüne Flagge startet die erste Szene, die Figur geht 10 Schritte und versteckt sich dann.
+Beim klicken auf die grüne Flagge startet die erste Szene, die Figur geht aus dem Bild und versteckt sich dann.
 
 In unserer Bühne reagieren wir jetzt auf unsere Nachricht *Szenenwechsel*
 
